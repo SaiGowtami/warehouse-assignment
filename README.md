@@ -53,3 +53,14 @@ There you will find all the endpoints.
 
 You can find the sample payloads under:
 [Assignment](https://github.com/SaiGowtami/warehouse-assignment/tree/main/assignment) as inventory.json and products.json
+
+#Point Notes:-
+- Added columns for pre-caleculating the available product stock
+- Updating the loggers 
+- Adding more Swagger documents
+- Handling more Exceptions
+- Adding Java Doc comments
+- Add Unit testcases
+- Implimenting interfaces for controller and service
+
+

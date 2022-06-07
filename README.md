@@ -13,8 +13,8 @@ Clone the project and use Maven to build the server
 ```shell
 $ mvn clean install
 ```
-Need a data base with schema (empty) as `warehouse` and up date those details according as shown below.
-You can configure small set of parameters in [application.properties](https://github.com/SaiGowtami/warehouse-assignment/blob/main/src/main/resources/application.yml):
+Need a data base with schema (empty) as `warehouse` and update those details accordingly as shown below.
+You can configure Database parameters in [application.properties](https://github.com/SaiGowtami/warehouse-assignment/blob/main/src/main/resources/application.yml):
 ```yaml
 spring:
   sql:
@@ -44,6 +44,7 @@ Alternatively you can use the Spring Boot Maven plugin like so:
 ```shell
 mvn spring-boot:run
 ```
+Or run the generate jar under target
 
 Browser URL
 Open your browser at the following URL for Swagger UI:

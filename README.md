@@ -14,7 +14,7 @@ Clone the project and use Maven to build the server
 $ mvn clean install
 ```
 Need a data base with schema (empty) as `warehouse` and up date those details according as shown below.
-You can configure small set of parameters in your [application.properties](https://github.com/SaiGowtami/warehouse-assignment/blob/main/src/main/resources/application.yml):
+You can configure small set of parameters in [application.properties](https://github.com/SaiGowtami/warehouse-assignment/blob/main/src/main/resources/application.yml):
 ```yaml
 spring:
   sql:

@@ -77,6 +77,7 @@ public class WarehouseController {
 		return new ResponseEntity<>("Prodcts created successfully", HttpStatus.CREATED);
 	}
 
+	@Operation(summary = "Sell a Products")
 	@PutMapping("/sellProduct")
 	public ResponseEntity<?> sellProduct(@RequestParam(required = true) String productName,
 			@RequestParam(required = true) int quantity) {
@@ -86,6 +87,7 @@ public class WarehouseController {
 				HttpStatus.CREATED);
 	}
 
+	@Operation(summary = "Get all the Products")
 	@GetMapping("/getProducts")
 	public List<Products> getProducts() {
 		return warehouseService.getProducts();

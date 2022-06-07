@@ -14,7 +14,7 @@ Clone the project and use Maven to build the server
 $ mvn clean install
 ```
 Need a data base with schema (empty) as `warehouse` and up date those details according as shown below.
-You can configure small set of parameters in your `application.properties`:
+You can configure small set of parameters in your [application.properties](https://github.com/SaiGowtami/warehouse-assignment/blob/main/src/main/resources/application.yml):
 ```yaml
 spring:
   sql:
@@ -49,3 +49,6 @@ Browser URL
 Open your browser at the following URL for Swagger UI:
 (http://localhost:8080/swagger-ui/index.html)
 There you will find all the endpoints.
+
+You can find the sample payloads under:
+[Assignment](https://github.com/SaiGowtami/warehouse-assignment/tree/main/assignment) as inventory.json and products.json
